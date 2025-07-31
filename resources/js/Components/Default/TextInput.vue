@@ -1,0 +1,34 @@
+<script setup>
+import { onMounted, ref } from 'vue';
+
+defineProps({
+    modelValue: String,
+    isCustomize: Boolean,
+    placeHolder: {
+        type: String,
+        default: '' // Gán giá trị mặc định cho placeHolder
+    }
+});
+
+defineEmits(['update:modelValue']);
+
+const input = ref(null);
+
+onMounted(() => {
+    if (input.value.hasAttribute('autofocus')) {
+        input.value.focus();
+    }
+});
+
+defineExpose({ focus: () => input.value.focus() });
+</script>
+
+<template>
+    <input
+        ref="input"
+        :class="{'input': !isCustomize}"
+        :value="modelValue"
+        @input="$emit('update:modelValue', $event.target.value)"
+        :placeholder="placeHolder"
+    >
+</template>

@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@botom/quill-resize-module": "^2.0.1",
+        "@fortawesome/fontawesome-free": "^6.7.2",
+        "@inertiajs/vue3": "^2.0",
+        "@tailwindcss/postcss": "^4.1.6",
+        "@tailwindcss/typography": "^0.5.16",
+        "@tailwindcss/vite": "^4.1.6",
+        "@types/file-saver": "^2.0.7",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.16",
+        "axios": "^1.9.0",
+        "chart.js": "^4.4.9",
+        "concurrently": "^9.0.1",
+        "daisyui": "^5.0.37",
+        "highlight.js": "^11.11.1",
+        "js-sdsl": "^4.4.2",
+        "laravel-vite-plugin": "^1.2.0",
+        "lodash": "^4.17.21",
+        "postcss": "^8.5.3",
+        "quill": "^2.0.0",
+        "quill-delta-to-html": "^0.12.1",
+        "quill-resize-module": "^2.0.4",
+        "sass-embedded": "^1.89.0",
+        "socket.io-client": "^4.8.1",
+        "tailwindcss": "^4.1.6",
+        "vite": "^6.2.4",
+        "vue": "^3.5.14",
+        "vue-advanced-cropper": "^2.8.9",
+        "vue-chartjs": "^5.3.2",
+        "vue3-toastify": "^0.2.8"
+    }
+}
