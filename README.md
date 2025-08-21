@@ -246,3 +246,58 @@ php artisan serve --host=0.0.0.0
 npm run dev # if you want to dev
 npm run build # if you don't want to dev
 ```
+
+<br>
+
+# Some pictures of the application
+
+## Home page
+
+### ![alt text](review/home-guest.png)
+
+### ![alt text](review/topic-detail.png)
+
+### ![alt text](review/discuss.png)
+
+## Login
+
+### ![alt text](review/login.png)
+
+## Register
+
+### ![alt text](review/register.png)
+
+## New Post
+
+### Upload new post
+
+### ![alt text](review/new-post.png)
+
+### Edit comment
+
+### ![alt text](review/edit-comment.png)
+
+## Dashboard
+
+### ![alt text](review/dashboard-1.png)
+### ![alt text](review/dashboard-2.png)
+
+## Category Management
+
+### ![alt text](review/category-management.png)
+
+## Tag Management
+
+### ![alt text](review/tag-management.png)
+
+## Message
+
+### ![alt text](review/message.png)
+
+### Profile
+
+### ![alt text](review/profile.png)
+
+### ![alt text](review/profile-avatar.png)
+
+### ![alt text](review/profile-picture.png)

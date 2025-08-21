@@ -41,7 +41,7 @@ const submit = () => {
         <div
             class="flex flex-col justify-center w-[90%] sm:w-[30rem] px-6 py-[4rem] overflow-hidden sm:rounded-lg bg-base-100 shadow-lg relative">
 
-            <Link class="absolute top-4 right-4 z-10" :href="route('welcome')" :active="route().current('welcome')">
+            <Link class="absolute top-4 right-4 z-10" :href="route('categories.explore')" :active="route().current('categories.explore')">
                 <SvgClose />
             </Link>
 
